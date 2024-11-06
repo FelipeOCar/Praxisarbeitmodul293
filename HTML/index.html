@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marharyta's Bubble Tea</title>
+    <link rel="stylesheet" href="/Praxisarbeit-Modul-293/css/stylesheet.css">
+</head>
+<body>
+<header>
+<!-- Navigation -->
+<div class="navbar">
+    <img src="/Praxisarbeit-Modul-293/images/Bubbletea_Logo.jpg" alt="Bubble Tea Logo" class="logo"> <!-- Logo added -->
+    <a href="#home">HOME</a>
+    <a href="#about">ABOUT</a>
+    <a href="#menu">MENU</a>
+    <a href="#where">WHERE</a>
+</div>
+</header>
+
+<div class="header-title">
+  <p>Welcome to Marharyta's Bubble Tea</p>
+</div>
+
+<!-- Home Section -->
+<div>
+  <!-- Add image to the Home section -->
+  <div class="home-image-container">
+      <img src="/Praxisarbeit-Modul-293/images/home image.avif" alt="Bubble Tea Store Image" class="home-image">
+  </div>
+  <fieldset>
+    <!-- About Section -->
+    <section class="container" id="about">
+        <h2 class="section-title">About Marharyta's Bubble Tea</h2>
+        <p>Marharyta's Bubble Tea is dedicated to providing the most refreshing, flavorful bubble teas with high-quality ingredients and an authentic touch. Located in the heart of the city, we offer a wide range of teas, milk teas, fruit flavors, and toppings like tapioca pearls, popping boba, and more.</p>
+    </section>
+    </fieldset>
+  </div>
+
+<div class="hauptteil">
+<!-- Menu Section -->
+<section class="container" id="menu">
+    <div class="menu-tab-container">
+        <div class="tab-link active" onclick="openMenu(event, 'Drinks');" id="drinksTab">Drinks</div>
+        <div class="tab-link" onclick="openMenu(event, 'Snacks');">Snacks</div>
+    </div>
+
+    <!-- Drinks Menu -->
+    <div id="Drinks" class="menu-section" style="display: block;">
+        <h3 class="menu-item">Classic Milk Tea</h3>
+        <p class="menu-description">A smooth blend of black tea with milk and tapioca pearls. Perfectly refreshing! $4.50</p><br>
+
+        <h3 class="menu-item">Matcha Green Tea</h3>
+        <p class="menu-description">A rich, earthy matcha tea with creamy milk. Try it with boba! $5.00</p><br>
+
+        <h3 class="menu-item">Taro Milk Tea</h3>
+        <p class="menu-description">Creamy taro flavor combined with milk tea, a fan favorite. $4.75</p><br>
+
+        <h3 class="menu-item">Fruit Tea</h3>
+        <p class="menu-description">Choose from peach, mango, or lychee, with a burst of fruity flavor and popping boba. $4.00</p><br>
+
+        <h3 class="menu-item">Strawberry Honey Tea</h3>
+        <p class="menu-description">Sweet and fragrant strawberry tea, drizzled with honey. $4.25</p><br>
+
+        <h3 class="menu-item">Chocolate Tea</h3>
+        <p class="menu-description">Rich chocolate flavor mixed with creamy milk tea. $4.75</p><br>
+
+        <h3 class="menu-item">Mango Milk Tea</h3>
+        <p class="menu-description">Tropical mango flavor with smooth milk tea and tapioca pearls. $4.50</p><br>
+
+        <h3 class="menu-item">Vanilla Milk Tea</h3>
+        <p class="menu-description">Classic vanilla taste with creamy milk tea. Perfect for any time of day. $4.50</p><br>
+    </div>
+
+    <!-- Snacks Menu -->
+    <div id="Snacks" class="menu-section" style="display: none;">
+        <h3 class="menu-item">Taiyaki</h3>
+        <p class="menu-description">Traditional Japanese fish-shaped pastry filled with sweet red bean paste or Nutella. $3.50</p><br>
+
+        <h3 class="menu-item">Mochi</h3>
+        <p class="menu-description">Soft and chewy rice cake dessert in various flavors: strawberry, matcha, and mango. $2.50 each</p><br>
+
+        <h3 class="menu-item">Onigiri - Salmon</h3>
+        <p class="menu-description">Classic Japanese rice ball filled with fresh, seasoned salmon. Perfectly savory and satisfying. $3.00</p><br>
+
+        <h3 class="menu-item">Onigiri - Vegetarian</h3>
+        <p class="menu-description">Delicious rice ball with a seasoned vegetable filling. $2.75</p><br>
+    </div>
+</section>
+
+
+<!-- Contact Section -->
+ <div>
+<section class="container" id="where">
+    <h2 class="section-title">Find Us</h2>
+    <p>Come visit us at 123 Bubble Tea Lane, Flavor Town. We're open every day from 10am to 8pm!</p>
+    <p><strong>Reserve</strong> a table or place an order:</p>
+    <form class="contact-form">
+        <input class="contact-input" type="text" placeholder="Name" required>
+        <input class="contact-input" type="email" placeholder="Email" required>
+        <textarea class="contact-input" placeholder="Message" required></textarea>
+        <button class="submit-button" type="submit">Send Message</button>
+    </form>
+</section>
+</div>
+</div>
+<!-- Footer -->
+<footer class="footer">
+    <p> &copy; Powered by Marharyta's Bubble Tea. All rights reserved.</p>
+</footer>
+<script src="/Praxisarbeit-Modul-293/javascript/"></script>
+</body>
+</html>
